@@ -20,13 +20,13 @@ const AppNavbar = () =>{
             <Nav.Link>Head To Head</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/PointBreakdowns">
-            <Nav.Link href="/PointBreakdowns">Point Breakdowns</Nav.Link>
+            <Nav.Link>Point Breakdowns</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Transfers">
-            <Nav.Link href="/Transfers">Transfers</Nav.Link>
+            <Nav.Link>Transfers</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Progressions">
-            <Nav.Link href="/Progressions">Progressions</Nav.Link>
+            <Nav.Link>Progressions</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
