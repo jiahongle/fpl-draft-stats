@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fpl-draft-stats/static/css/main.49b8ea09.css",
+    "main.js": "/fpl-draft-stats/static/js/main.35ef3832.js",
+    "index.html": "/fpl-draft-stats/index.html",
+    "main.49b8ea09.css.map": "/fpl-draft-stats/static/css/main.49b8ea09.css.map",
+    "main.35ef3832.js.map": "/fpl-draft-stats/static/js/main.35ef3832.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49b8ea09.css",
+    "static/js/main.35ef3832.js"
+  ]
+}
