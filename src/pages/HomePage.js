@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from '../assets/logo.png'
+import './HomePage.css'
 
 const HomePage = () =>{
   return (
     <div>
-      <h3>Laguedae Rovers Fantasy Draft Statistics</h3>
+      <img src={logo} alt="logo"/>
     </div>
   );
 }
