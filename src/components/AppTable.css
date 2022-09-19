@@ -1,0 +1,28 @@
+div.table {
+	margin: auto;
+}
+
+thead {
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+ 
+.expandButton {
+	width: 100%;
+	text-align: center;
+	color: grey !important;
+	background-color: white !important;
+	border-color: grey !important;
+	border-radius: 0% !important;
+}
+
+.expandButton:hover {
+	width: 100%;
+	text-align: center;
+	color: white !important;
+	background-color: purple !important;
+	border-color: grey !important;
+	border-radius: 0% !important;
+}
