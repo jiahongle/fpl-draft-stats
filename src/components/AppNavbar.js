@@ -12,7 +12,9 @@ const AppNavbar = () =>{
   return (
     <Navbar className="color-nav" collapseOnSelect fixed='top' expand="sm" variant="dark">
       <Container>
-        <Navbar.Brand href="/">LAGUEDAYE ROVERS FPL STATS</Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>LAGUEDAE ROVERS FPL STATS</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>

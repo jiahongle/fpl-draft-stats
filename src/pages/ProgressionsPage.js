@@ -11,18 +11,18 @@ const ProgressionsPage = () =>{
   return (
     <div>
       <LineChart 
-        filePath={'/extractor/csv/totalScoreProgression.csv'}
+        filePath={'https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/totalScoreProgression.csv'}
         chartLabel={"Total Score Progression"}
         xLabel={"Gameweek"}
         yLabel={"Points"}/>
       <LineChart 
-        filePath={'/extractor/csv/leagueStandingProgression.csv'}
+        filePath={'https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/leagueStandingProgression.csv'}
         chartLabel={"League Standing Progression"}
         xLabel={"Gameweek"}
         yLabel={"Position"}
         reverse={true}/>
       <LineChart 
-        filePath={'/extractor/csv/totalScoreAvgDiffProgression.csv'}
+        filePath={'https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/totalScoreAvgDiffProgression.csv'}
         chartLabel={"Total Score Avg Diff Progression"}
         xLabel={"Gameweek"}
         yLabel={"Points"}/>

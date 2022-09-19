@@ -9,7 +9,7 @@ const HeadToHeadPage = () =>{
   return (
     <div>
       <AppTable
-        filePath={"/extractor/csv/headToHeadRecords.csv"}
+        filePath={"https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/headToHeadRecords.csv"}
         tableName={"Head To Head"}
       />
     </div>

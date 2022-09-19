@@ -10,11 +10,11 @@ const TransfersPage = () =>{
   return (
     <div>
       <AppTable
-        filePath={"/extractor/csv/mostTransfersByManager.csv"}
+        filePath={"https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/mostTransfersByManager.csv"}
         tableName={"Most Transfers By Manager"}
       />
       <AppTable
-        filePath={"/extractor/csv/mostTransferredPlayers.csv"}
+        filePath={"https://raw.githubusercontent.com/jiahongle/fpl-draft-stats/master/public/extractor/csv/mostTransferredPlayers.csv"}
         tableName={"Most Transferred Players"}
       />
     </div>
