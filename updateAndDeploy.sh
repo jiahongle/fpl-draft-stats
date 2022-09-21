@@ -19,7 +19,6 @@ echo "Deploying to GH Pages..."
 cd ../../
 npm run deploy -- -m "Deploying with updated CSV data on $NOW"
 
-echo "ALL DONE!"
 
 
 

@@ -5,6 +5,8 @@
 /public/extractor/node_modules
 /.pnp
 .pnp.js
+counter.db
+test.py
 
 # testing
 /coverage
