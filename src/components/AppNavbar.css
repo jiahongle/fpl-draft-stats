@@ -11,12 +11,12 @@
 
 .logo {
     all: unset;
-    padding-top: 10;
+    padding-top: 10px;
     height: 45px; 
     width: 45px;
     vertical-align: auto!important;
     /* outline: 1px solid red; */
     float: right !important;
     margin-top: -15px !important;
-
+    
 }

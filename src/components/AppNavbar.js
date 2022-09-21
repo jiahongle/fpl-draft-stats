@@ -16,7 +16,7 @@ const AppNavbar = () =>{
         <LinkContainer to="/">
           <Navbar.Brand>LAGUEDAE ROVERS FPL STATS</Navbar.Brand>
         </LinkContainer>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
             <LinkContainer to="/HeadToHead">
@@ -33,7 +33,7 @@ const AppNavbar = () =>{
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand><img className="logo" src={logo} alt="logo"/></Navbar.Brand>
+      <Navbar.Brand><img className="logo" src={logo} alt="logo"/></Navbar.Brand>
       </Container>
     </Navbar>
   )
