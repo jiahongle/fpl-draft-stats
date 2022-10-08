@@ -10,14 +10,15 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 const AppNavbar = () =>{
   return (
-    <Navbar className="nav" collapseOnSelect fixed='top' expand="sm" variant="dark">
+    <Navbar className="nav" collapseOnSelect fixed='top' expand="lg" variant="dark">
       <Container className="nav-container">
+      <Navbar.Brand><img className="logo" src={logo} alt="logo"/></Navbar.Brand>
         <LinkContainer to="/">
           <Navbar.Brand>LAGUEDAE ROVERS FPL STATS</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
+          <Nav id="nav-expand">
             <LinkContainer to="/HeadToHead">
               <Nav.Link>Head To Head</Nav.Link>
             </LinkContainer>
@@ -32,7 +33,6 @@ const AppNavbar = () =>{
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-      <Navbar.Brand><img className="logo" src={logo} alt="logo"/></Navbar.Brand>
       </Container>
     </Navbar>
   )

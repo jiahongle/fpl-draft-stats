@@ -1,12 +1,19 @@
 .nav {
     background-color: #360d3a;
-    height: 72px;
+    /* height: 72px; */
     width: 100%;
+    /* outline: 1px solid red; */
+}
+
+#nav-expand {
+    background-color: #360d3a;
+    width: 100%;
+    /* outline: 1px solid red; */
 }
 .nav-container {
     /* outline: 1px solid red; */
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .logo {
@@ -18,5 +25,4 @@
     /* outline: 1px solid red; */
     float: right !important;
     margin-top: -15px !important;
-    
 }

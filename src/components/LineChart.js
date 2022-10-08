@@ -47,8 +47,8 @@ const LineChart = (props) => {
       return {
         label: row['Gameweek'],
         data: Array.from({length: data?.meta.fields.length-1}, (_, i) => i + 1).map((i) => row[i]),
-        borderColor: "rgb(" + r + "," + g + "," + b + ")",
-        backgroundColor: "rgb(" + r + "," + g + "," + b + ")",
+        borderColor: props.rgbArray,
+        backgroundColor: props.rgbArray
       }
     })
     console.log(datasets)
