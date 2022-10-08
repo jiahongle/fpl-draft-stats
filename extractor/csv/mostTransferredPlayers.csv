@@ -1,6 +1,9 @@
 Name,TeamsPlayedFor,SuccessfulTransfers
 Tierney,3,3
 Maupay,3,3
+Kilman,3,3
+Botman,2,3
+Bruno Guimarães,2,3
 Bailey,2,2
 Johnson,2,2
 Awoniyi,2,2
@@ -8,22 +11,26 @@ Cash,2,2
 Webster,2,2
 Aaronson,2,2
 Aké,2,2
-Botman,2,2
 Malacia,2,2
 Smith Rowe,2,2
 Arrizabalaga,2,2
 Broja,2,2
+Daka,2,2
 Fofana,2,2
 Thiago,2,2
 Wood,2,2
 Dubravka,2,2
 Joelinton,2,2
-Bruno Guimarães,2,2
 R.Sessegnon,2,2
-Kilman,2,2
+Lenglet,2,2
+Lingard,2,2
 Dalot,1,2
 Schär,1,2
+Coady,1,2
+Neto,1,2
+Edouard,1,2
 Mateta,1,2
+Tsimikas,1,2
 Elliott,1,2
 Coufal,1,2
 Jiménez,1,2
@@ -41,7 +48,6 @@ Almirón,1,1
 Doherty,1,1
 Martínez,1,1
 McNeil,1,1
-Neto,1,1
 Paquetá,1,1
 Leno,1,1
 Xhaka,1,1
@@ -104,7 +110,6 @@ Ayew,1,1
 Zaha,1,1
 Butland,1,1
 Andersen,1,1
-Edouard,1,1
 Guéhi,1,1
 Eze,1,1
 Olise,1,1
@@ -114,6 +119,7 @@ Gray,1,1
 Calvert-Lewin,1,1
 Mykolenko,1,1
 Gordon,1,1
+De Cordova-Reid,1,1
 Mitrović,1,1
 Wilson,1,1
 Rodrigo,1,1
@@ -128,8 +134,8 @@ Tielemans,1,1
 Maddison,1,1
 Iheanacho,1,1
 Barnes,1,1
+Dewsbury-Hall,1,1
 Justin,1,1
-Daka,1,1
 Henderson,1,1
 Matip,1,1
 Firmino,1,1
@@ -142,7 +148,6 @@ Gomez,1,1
 Keita,1,1
 Diogo Jota,1,1
 Konaté,1,1
-Tsimikas,1,1
 Luis Díaz,1,1
 N.Williams,1,1
 Carvalho,1,1
@@ -182,6 +187,7 @@ Trippier,1,1
 Burn,1,1
 Targett,1,1
 Saint-Maximin,1,1
+Willock,1,1
 Pope,1,1
 Henderson,1,1
 McCarthy,1,1
@@ -191,6 +197,7 @@ Walker-Peters,1,1
 Adams,1,1
 Bazunu,1,1
 Lloris,1,1
+Forster,1,1
 Kane,1,1
 Son,1,1
 Dier,1,1
@@ -216,7 +223,6 @@ Soucek,1,1
 Fornals,1,1
 Aguerd,1,1
 Areola,1,1
-Coady,1,1
 Jonny,1,1
 Sá,1,1
 Hwang,1,1
@@ -226,7 +232,6 @@ Aït-Nouri,1,1
 Gibbs-White,1,1
 Sinisterra,1,1
 Hickey,1,1
-Lenglet,1,1
 Collins,1,1
 Strakosha,1,1
 Eriksen,1,1
@@ -234,16 +239,17 @@ Koulibaly,1,1
 Spence,1,1
 Toffolo,1,1
 Mee,1,1
-Lingard,1,1
 Scamacca,1,1
 Guedes,1,1
+Damsgaard,1,1
 Dennis,1,1
 Estupiñán,1,1
+Sergio Gómez,1,1
 Matheus,1,1
 Renan Lodi,1,1
 Akanji,1,1
+Tarkowski,0,0
 Perraud,0,0
 Bentancur,0,0
 Lanzini,0,0
 Neves,0,0
-Sergio Gómez,0,0
