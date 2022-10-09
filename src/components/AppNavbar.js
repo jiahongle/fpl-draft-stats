@@ -14,7 +14,7 @@ const AppNavbar = () =>{
       <Container className="nav-container">
       <Navbar.Brand><img className="logo" src={logo} alt="logo"/></Navbar.Brand>
         <LinkContainer to="/">
-          <Navbar.Brand>LAGUEDAE ROVERS FPL STATS</Navbar.Brand>
+          <Navbar.Brand id="brand-text">LAGUEDAE ROVERS FPL STATS</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
