@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fpl-draft-stats/static/css/main.eaf981cd.css",
-    "main.js": "/fpl-draft-stats/static/js/main.11335d99.js",
+    "main.js": "/fpl-draft-stats/static/js/main.db71583e.js",
     "static/media/logo.png": "/fpl-draft-stats/static/media/logo.6d11fe66aa5186472a83.png",
     "index.html": "/fpl-draft-stats/index.html",
     "main.eaf981cd.css.map": "/fpl-draft-stats/static/css/main.eaf981cd.css.map",
-    "main.11335d99.js.map": "/fpl-draft-stats/static/js/main.11335d99.js.map"
+    "main.db71583e.js.map": "/fpl-draft-stats/static/js/main.db71583e.js.map"
   },
   "entrypoints": [
     "static/css/main.eaf981cd.css",
-    "static/js/main.11335d99.js"
+    "static/js/main.db71583e.js"
   ]
 }
