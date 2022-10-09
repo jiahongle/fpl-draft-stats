@@ -7,16 +7,22 @@ import LineChart from '../components/LineChart';
  * - totalScoreAvgDiffProgression
  * - totalScoreProgression
  * */
-const ProgressionsPage = () =>{
-  const NUM_PLAYERS = 12;
-  const rgbs = [];
-  for (var i = 0; i < NUM_PLAYERS; i++) {
-    var r = (Math.floor(Math.random() * 255));
-    var g = (Math.floor(Math.random() * 255));
-    var b = (Math.floor(Math.random() * 255));
-    rgbs.push("rgb(" + r + "," + g + "," + b + ")");
+const rgbs = [
+  "rgb(255, 0, 0)",
+  "rgb(255, 128, 0)",
+  "rgb(255, 255, 0)",
+  "rgb(128, 255, 0)",
+  "rgb(0, 255, 0)",
+  "rgb(0, 255, 128)",
+  "rgb(0, 255, 255)",
+  "rgb(0, 128, 255)",
+  "rgb(0, 0, 255)",
+  "rgb(128, 0, 255)",
+  "rgb(255, 0, 255)",
+  "rgb(255, 0, 128)"
+]
 
-  }
+const ProgressionsPage = () =>{
   return (
     <div>
       <LineChart

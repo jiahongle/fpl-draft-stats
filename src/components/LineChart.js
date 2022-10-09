@@ -40,15 +40,14 @@ const LineChart = (props) => {
     CsvParser(props.filePath, setData)
 
     const labels = data?.meta.fields.filter(label => label !== "Gameweek")
-    const datasets = data?.data.map(row => {
-      var r = Math.floor(Math.random() * 255);
-      var g = Math.floor(Math.random() * 255);
-      var b = Math.floor(Math.random() * 255);
+    const datasets = data?.data.map((row, i) => {
       return {
         label: row['Gameweek'],
         data: Array.from({length: data?.meta.fields.length-1}, (_, i) => i + 1).map((i) => row[i]),
-        borderColor: props.rgbArray,
-        backgroundColor: props.rgbArray
+        borderColor: props.rgbArray[i],
+        backgroundColor: props.rgbArray[i],
+        pointBackgroundColor: props.rgbArray[i]
+
       }
     })
     console.log(datasets)
